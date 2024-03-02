@@ -25,7 +25,7 @@ const validationSchema = Yup.object({
 const Login = ({navigation}) => {
   const [loadData, setLoadData] = useState(false) //loading of data
   const [responseData, setResponseData] = useState(null) //network response
-  const [hiddenText, setHiddenText] = useState(true) // for hiding password
+  const [hiddenText, setHiddenText] = useState(false) // for hiding password
 
   // invalid Submission Alert Function
   const inValidSubmission = () => {
