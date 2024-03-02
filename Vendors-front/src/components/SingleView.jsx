@@ -92,7 +92,7 @@ useEffect(()=>{
   
           const response = await axios.post(`${addCartURL}`,{
             "product_name":item.product_name,
-            "price":item.price * item.quantity,
+            "price":item.price, 
             "product_id":item.id,
             "vendor_id":item.vendor_id,
             "image_url":item.image_1,
