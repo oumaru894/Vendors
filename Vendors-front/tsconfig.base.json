@@ -1,0 +1,20 @@
+{
+    "extends": "expo-module-scripts/tsconfig.base",
+    "compilerOptions": {
+      "allowJs": true,
+      "skipLibCheck": true,
+      "target": "esnext",
+      "module": "commonjs",
+      "jsx": "react-native",
+      "strict": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true
+    },
+    "include": ["src/**/*.ts", "src/**/*.tsx", "index.tsx",],
+    "exclude": ["node_modules"]
+  }
+  
